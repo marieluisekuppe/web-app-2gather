@@ -12,9 +12,9 @@ export default function ProfilePage() {
     // Simulerer hentning af brugerdata
     setTimeout(() => {
       setUser({
-        name: localStorage.getItem("profileName") || "Kübra Fidan",
-        brugernavn: localStorage.getItem("profileUsername") || "kubrafidan",
-        lokation: "Aarhus V",
+        name: localStorage.getItem("profileName") || "Hanne Hansen",
+        brugernavn: localStorage.getItem("profileUsername") || "hhansen",
+        lokation: "Aarhus C",
         Beskrivelse:
           localStorage.getItem("profileAbout") ||
           "Jeg elsker at gå til koncerter og festivaler! Jeg er altid på udkig efter nye musikoplevelser og elsker at dele mine oplevelser med andre.",

@@ -54,7 +54,7 @@ export default function HomePage() {
       <Header />
       <main className="app">
         <section className="feed-intro">
-          <h2 className="page-title">Hej Kübra!</h2>
+          <h2 className="page-title">Hej Hanne!</h2>
           <p className="front-page-text">Velkommen tilbage!</p>
           <p className="feed-section-one">Udforsk events i nærheden af dig!</p>
         </section>
