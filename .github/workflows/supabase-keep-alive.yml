@@ -8,7 +8,6 @@ on:
 jobs:
   ping:
     # Henter variablerne fra samme environment som dit deploy-workflow
-    environment: github-pages-deployment
     runs-on: ubuntu-latest
     env:
       # Tilpas til en tabel, der findes i dit Supabase-projekt
